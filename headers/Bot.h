@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <time.h>
 
-#define MAX_HEALTH 90
+#define MAX_HEALTH 300
 #define GENOM_SIZE 64
 #define COMMAND_COUNT 6
 #define DIRECTION_COUNT 8

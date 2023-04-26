@@ -2,7 +2,7 @@
 
 Graphics::Graphics() : rectangleSize(20), outlineTricknesSize(2)
 {
-    window.create(sf::VideoMode(1500, 700), "Evolution, baby");
+    window.create(sf::VideoMode(1500, 700), "Evolution");
     window.setFramerateLimit(60);
     rectangle.setSize(sf::Vector2f(rectangleSize, rectangleSize));
     rectangle.setOutlineColor(sf::Color(160, 160, 160));
