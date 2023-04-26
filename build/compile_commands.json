@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/main.cpp.o -c /home/onefore/projects/course-paper/main.cpp",
+  "file": "/home/onefore/projects/course-paper/main.cpp",
+  "output": "CMakeFiles/course-paper.dir/main.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Bot.cpp.o -c /home/onefore/projects/course-paper/sources/Bot.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Bot.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Bot.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Eat.cpp.o -c /home/onefore/projects/course-paper/sources/Eat.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Eat.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Eat.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Empty.cpp.o -c /home/onefore/projects/course-paper/sources/Empty.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Empty.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Empty.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Object.cpp.o -c /home/onefore/projects/course-paper/sources/Object.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Object.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Object.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Poison.cpp.o -c /home/onefore/projects/course-paper/sources/Poison.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Poison.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Poison.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Wall.cpp.o -c /home/onefore/projects/course-paper/sources/Wall.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Wall.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Wall.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/World.cpp.o -c /home/onefore/projects/course-paper/sources/World.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/World.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/World.cpp.o"
+},
+{
+  "directory": "/home/onefore/projects/course-paper/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -isystem /home/onefore/coding-src/vcpkg/installed/x64-linux/include -g -o CMakeFiles/course-paper.dir/sources/Graphics.cpp.o -c /home/onefore/projects/course-paper/sources/Graphics.cpp",
+  "file": "/home/onefore/projects/course-paper/sources/Graphics.cpp",
+  "output": "CMakeFiles/course-paper.dir/sources/Graphics.cpp.o"
+}
+]

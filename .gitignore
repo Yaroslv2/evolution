@@ -1,0 +1,16 @@
+*NO_PACK*
+*~
+**/CMakeFiles/
+**/_CPack_Packages/
+**/Testing/
+**/BUILD/
+**/BUILDROOT/
+**/RPMS/
+**/SPECS/
+**/SOURCES/
+**/SRPMS/
+**/FedPkg/
+CMakeCache.txt
+cmake_*install.cmake
+CPack*Config.cmake
+CTestTestfile.cmake

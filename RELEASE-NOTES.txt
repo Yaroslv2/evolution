@@ -1,0 +1,6 @@
+PRJ_VER=0.1.0
+SUMMARY=Initial release.
+REDHAT_BUGZILLA=
+[Changes]
+- Initial release.
+
