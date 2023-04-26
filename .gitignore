@@ -9,6 +9,7 @@
 **/SPECS/
 **/SOURCES/
 **/SRPMS/
+**/.vscode/
 **/FedPkg/
 CMakeCache.txt
 cmake_*install.cmake
