@@ -2,7 +2,8 @@
 #define Eat__h
 #include "Object.h"
 
-class Eat : public Object {
+class Eat : public Object
+{
 public:
     Eat();
 };

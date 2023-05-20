@@ -27,6 +27,7 @@ Graphics::Graphics() : rectangleSize(20), outlineTricknesSize(2)
 void Graphics::Draw(const std::vector<std::vector<Object *>> &pole, int era)
 {
     window.clear();
+    // draw map
     for (int i = 0; i < pole.size(); i++)
     {
         for (int j = 0; j < pole[i].size(); j++)
@@ -56,11 +57,14 @@ void Graphics::Draw(const std::vector<std::vector<Object *>> &pole, int era)
         }
     }
 
+    // draw generation
     std::string str = "Поколение: " + std::to_string(era);
     sfString.setPosition(15, 15);
     sfString.setCharacterSize(30);
     sfString.setString(sf::String::fromUtf8(str.begin(), str.end()));
     window.draw(sfString);
+
+    // draw scores previos generations
     int deqPos = 1;
     sfString.setCharacterSize(15);
     for (auto i : scores)
@@ -87,21 +91,16 @@ std::vector<Graphics::Event> Graphics::GetWindowEvents()
     std::vector<Event> result;
 
     sf::Event event;
-    while (window.pollEvent(event))
+    while (window.pollEvent(event)) // processing events
     {
-        if (event.type == sf::Event::Closed)
-        {
-            CloseWindow();
-            result.emplace_back(Event::CLOSE);
-        }
         switch (event.type)
         {
-        case sf::Event::Closed:
+        case sf::Event::Closed: // close window
             CloseWindow();
             result.emplace_back(Event::CLOSE);
             break;
         case sf::Event::KeyPressed:
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) // pause the algorithm
             {
                 result.emplace_back(Event::PAUSE);
             }

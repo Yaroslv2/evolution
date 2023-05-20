@@ -18,13 +18,14 @@ World::World(int n, int m) : n(n), m(m)
     {
         pole[i].resize(m);
     }
-    Reset();
-    FillObject<Bot>(BOTS_COUNT);
-    reloadBotCoords();
+    Reset();                     // fill map of objects
+    FillObject<Bot>(BOTS_COUNT); // set bots on map
+    reloadBotCoords();           // save bots coodinates
 }
 
 void World::Reset()
 {
+    // get empty map
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
@@ -32,30 +33,32 @@ void World::Reset()
             pole[i][j] = new Empty();
         }
     }
-    FillObject<Eat>(EAT_COUNT);
-    FillObject<Poison>(POISON_COUNT);
-    FillObject<Wall>(WALL_COUNT);
+    FillObject<Eat>(EAT_COUNT);       // set eat on map
+    FillObject<Poison>(POISON_COUNT); // set poison on map
+    FillObject<Wall>(WALL_COUNT);     // set walls on map
 }
 
 template <class T>
 void World::FillObject(int count)
 {
-    std::set<std::pair<int, int>> s;
+    std::set<std::pair<int, int>> s; // unique empty coordinates
+    // generate coordinates
     while (s.size() < count)
     {
         std::pair<int, int> coord = std::make_pair(rand() % n, rand() % m);
-        if (pole[coord.first][coord.second]->GetType() == Object::Type::EMPTY)
+        if (pole[coord.first][coord.second]->GetType() == Object::Type::EMPTY) // insert coordinates if this is coordinates of empty place
         {
             s.insert(coord);
         }
     }
-    for (auto i : s)
+    for (auto i : s) // set object on new coords
     {
         delete pole[i.first][i.second];
         pole[i.first][i.second] = new T();
     }
 }
 
+// bots actions
 void World::MakeTurn()
 {
     int count = botsCoord.size();
@@ -65,15 +68,15 @@ void World::MakeTurn()
         botsCoord.pop();
         Bot *bot = (Bot *)pole[botCoord.first][botCoord.second];
         std::pair<int, int> newCoords = botCoord;
-        Object::Type arg = Object::Type::NUN;
+        Object::Type arg = Object::Type::NUN; // return of bot LOOK action
         for (int i = 0; i < 10; i++)
         {
             score++;
-            Bot::Action action = bot->MakeAction(arg);
+            Bot::Action action = bot->MakeAction(arg); // get command of bot
             switch (action)
             {
             case Bot::Action::GO:
-                newCoords = ProcessDirection(botCoord, bot);
+                newCoords = ProcessDirection(botCoord, bot); // return coordinates front of bot
                 botCoord = ChangeBotCoords(botCoord, newCoords, bot);
                 break;
             case Bot::Action::EAT:
@@ -120,6 +123,7 @@ void World::MakeTurn()
             if (bot->GetHealth() <= 0)
                 break;
         }
+        // delete bot from map when it is dead
         if (bot->GetHealth() <= 0)
         {
             cemetery.push_front(bot);

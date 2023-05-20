@@ -17,7 +17,7 @@ public:
     Bot();
     Bot(const Bot &);
     int GetHealth();
-    enum class Action
+    enum class Action // bot command for another classes
     {
         VOID,
         GO,
@@ -25,7 +25,7 @@ public:
         CONVERT,
         LOOK
     };
-    enum class Direction
+    enum class Direction // bot direction
     {
         UP_LEFT,
         UP,

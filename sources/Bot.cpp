@@ -1,12 +1,12 @@
 #include "../headers/Bot.h"
 #include <set>
 
-Bot::Bot() : Object(Object::Type::BOT),
+Bot::Bot() : Object(Object::Type::BOT), // set object type
              health(MAX_HEALTH),
-             direction((Bot::Direction)(std::rand() % DIRECTION_COUNT)),
+             direction((Bot::Direction)(std::rand() % DIRECTION_COUNT)), // set direction of bot
              curCommand(0)
 {
-    for (int i = 0; i < GENOM_SIZE; i++)
+    for (int i = 0; i < GENOM_SIZE; i++) // generate genom
     {
         genom.push_back(GenerateCommand());
     }
@@ -25,11 +25,13 @@ int Bot::GetHealth()
     return health;
 }
 
+// bot feed
 void Bot::Feed(int feed_health)
 {
     health += feed_health - (health % MAX_HEALTH);
 }
 
+// poison bot
 void Bot::Poison(int poison_health)
 {
     health -= poison_health;
@@ -40,15 +42,18 @@ Bot::Command Bot::GenerateCommand()
     return (Bot::Command)(std::rand() % COMMAND_COUNT);
 }
 
+// bot action
 Bot::Action Bot::MakeAction(Object::Type type)
 {
     Bot::Action result = Bot::Action::VOID;
 
+    // if previos command was BOT::ACTION::LOOK
     if (type != Object::Type::NUN)
     {
         curCommand = (curCommand + (int)type - 1) % GENOM_SIZE;
     }
 
+    // proccess command
     switch (genom[curCommand])
     {
     case Bot::Command::GO:
@@ -82,13 +87,15 @@ Bot::Direction Bot::GetDirection()
     return direction;
 }
 
+// bot evolution
 void Bot::evolve(int mutatuionCount)
 {
-    std::set<int> mutations;
-    while (mutations.size() < mutatuionCount)
+    std::set<int> mutations;                  // unique command positions in genom
+    while (mutations.size() < mutatuionCount) // insert command position
     {
         mutations.insert(rand() % GENOM_SIZE);
     }
+    // generate new commands on this positions
     for (auto i : mutations)
     {
         Bot::Command newCommand = genom[i];

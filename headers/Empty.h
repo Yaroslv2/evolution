@@ -3,7 +3,8 @@
 
 #include "Object.h"
 
-class Empty : public Object {
+class Empty : public Object
+{
 public:
     Empty();
 };

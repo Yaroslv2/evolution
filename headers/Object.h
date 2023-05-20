@@ -1,18 +1,20 @@
 #ifndef Object__h
 #define Object__h
 
-class Object {
+class Object
+{
 public:
-    enum class Type {
-        NUN, 
-        BOT, 
-        POISON, 
-        EAT, 
-        WALL, 
+    enum class Type
+    {
+        NUN,
+        BOT,
+        POISON,
+        EAT,
+        WALL,
         EMPTY
     };
 
-    Object (Type aType);
+    Object(Type aType);
     Type GetType();
 
 private:
