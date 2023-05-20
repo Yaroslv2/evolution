@@ -265,7 +265,7 @@ void World::reloadBotCoords()
         {
             if (pole[i][j]->GetType() == Object::Type::BOT)
             {
-                
+
                 botsCoord.push(std::make_pair(i, j));
             }
         }

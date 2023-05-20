@@ -6,30 +6,10 @@ int main()
 {
     srand(time(NULL));
     int n = 40, m = 20, rect_size = 20, outline_tricknes_size = 2;
+    bool pause = false;
     World world(n, m);
     Graphics graphics;
     int era = 1;
-    // while (true)
-    // {
-    //     std::vector<std::vector<Object *>> v = world.getPole();
-    //     for (int i = 0; i < m; i++)
-    //     {
-    //         for (int j = 0; j < n; j++)
-    //         {
-    //             if (v[j][i]->GetType() == Object::Type::BOT)
-    //             {
-    //                 std::cout << "1 ";
-    //             }
-    //             else
-    //                 std::cout << " ";
-    //         }
-    //         std::cout << std::endl;
-    //     }
-    //     std::cout << std::endl;
-    //     std::cout << std::endl;
-    //     world.MakeTurn();
-    //     getchar();
-    // }
     while (graphics.IsWindowOpen())
     {
         std::vector<Graphics::Event> events = graphics.GetWindowEvents();
@@ -40,18 +20,22 @@ int main()
             case Graphics::Event::CLOSE:
                 return 0;
                 break;
+            case Graphics::Event::PAUSE:
+                pause = !pause;
             default:
                 break;
             }
         }
         if (world.needEvolve())
         {
-            era++;
-            std::cout << era << " " << world.score << std::endl;
+            graphics.getNewScore(era++, world.score);
             world.Evolve();
         }
-        world.MakeTurn();
-        graphics.Draw(world.getPole());
+        if (!pause)
+        {
+            world.MakeTurn();
+            graphics.Draw(world.getPole(), era);
+        }
     }
 
     return 0;
