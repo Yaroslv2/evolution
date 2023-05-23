@@ -28,7 +28,8 @@ int Bot::GetHealth()
 // bot feed
 void Bot::Feed(int feed_health)
 {
-    health += feed_health - (health % MAX_HEALTH);
+    health += feed_health;
+    health %= MAX_HEALTH;
 }
 
 // poison bot

@@ -19,27 +19,33 @@ class World
 public:
     World();
     World(int, int);
-    void Reset();
-    void MakeTurn();
+    void reset();
+    void makeTurn();
     bool needEvolve();
-    void Evolve();
+    void evolve();
     const std::vector<std::vector<Object *>> &getPole();
     int score;
 
 private:
     int n;
     int m;
+    int eatOnMapCount;
+    int poisonOnMapCount;
     std::vector<std::vector<Object *>> pole;
     std::queue<std::pair<int, int>> botsCoord;
-    std::pair<int, int> ChangeBotCoords(std::pair<int, int>, std::pair<int, int>, Bot *&);
-    bool IsInPole(std::pair<int, int>);
+    std::queue<std::pair<int, int>> feedCoord;
+    std::queue<std::pair<int, int>> poisonCoord;
+    std::pair<int, int> changeBotCoords(std::pair<int, int>, std::pair<int, int>, Bot *&);
+    bool isInPole(std::pair<int, int>);
     template <class T>
-    void FillObject(int);
-    std::pair<int, int> ProcessDirection(std::pair<int, int>, Bot *&);
+    void fillObject(int);
+    std::pair<int, int> processDirection(std::pair<int, int>, int);
     void reloadBotCoords();
     void insertObject(Object *);
     std::deque<Bot *> cemetery;
     void deleteFromCemetery(int);
+    void feadRegenerate();
+    void poisonRegenerate();
 };
 
 #endif

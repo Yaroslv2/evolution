@@ -14,12 +14,16 @@ class Graphics
     sf::Text sfString; // string for text in window
     sf::Font font;
     std::deque<std::pair<int, int>> scores; // scores previous generations
+    sf::View view;
 
 public:
     enum class Event // windows events
     {
         CLOSE,
         PAUSE,
+        INCREASE_SPEED,
+        DECREASE_SPEED,
+        SWITCH_DRAW,
     };
     Graphics();
     void Draw(const std::vector<std::vector<Object *>> &, int); // draw on window

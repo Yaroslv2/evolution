@@ -4,14 +4,15 @@
 
 #define WINDOW_HEIGHT 700
 #define WINDOW_WIDTH 1500
-#define MAP_X_COORD 325
-#define MAP_Y_COORD 125
+#define MAP_X_COORD 300
+#define MAP_Y_COORD 100
 
 #define FONT_FILE "/home/onefore/projects/course-paper/assets/Roboto/Roboto-Bold.ttf"
 
-Graphics::Graphics() : rectangleSize(20), outlineTricknesSize(2)
+Graphics::Graphics() : rectangleSize(30), outlineTricknesSize(2)
 {
     window.create(sf::VideoMode(1500, 700), "Evolution");
+    view = window.getDefaultView();
     window.setFramerateLimit(60);
     rectangle.setSize(sf::Vector2f(rectangleSize, rectangleSize));
     rectangle.setOutlineColor(sf::Color(160, 160, 160));
@@ -28,6 +29,7 @@ void Graphics::Draw(const std::vector<std::vector<Object *>> &pole, int era)
 {
     window.clear();
     // draw map
+    Bot *bot;
     for (int i = 0; i < pole.size(); i++)
     {
         for (int j = 0; j < pole[i].size(); j++)
@@ -36,6 +38,10 @@ void Graphics::Draw(const std::vector<std::vector<Object *>> &pole, int era)
             {
             case Object::Type::BOT:
                 rectangle.setFillColor(sf::Color::Blue);
+                bot = static_cast<Bot *>(pole[i][j]);
+                sfString.setString(std::to_string(bot->GetHealth()));
+                sfString.setCharacterSize(15);
+                sfString.setPosition(MAP_X_COORD + i * rectangleSize + outlineTricknesSize + 5, 5 + MAP_Y_COORD + j * rectangleSize + outlineTricknesSize);
                 break;
             case Object::Type::POISON:
                 rectangle.setFillColor(sf::Color::Red);
@@ -54,6 +60,8 @@ void Graphics::Draw(const std::vector<std::vector<Object *>> &pole, int era)
             }
             rectangle.setPosition(MAP_X_COORD + i * rectangleSize + outlineTricknesSize, MAP_Y_COORD + j * rectangleSize + outlineTricknesSize);
             window.draw(rectangle);
+            if (pole[i][j]->GetType() == Object::Type::BOT)
+                window.draw(sfString);
         }
     }
 
@@ -99,11 +107,30 @@ std::vector<Graphics::Event> Graphics::GetWindowEvents()
             CloseWindow();
             result.emplace_back(Event::CLOSE);
             break;
-        case sf::Event::KeyPressed:
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) // pause the algorithm
+        case sf::Event::KeyReleased:
+            switch (event.key.code)
             {
+            case sf::Keyboard::Key::Space:
                 result.emplace_back(Event::PAUSE);
+                break;
+            case sf::Keyboard::Key::Z:
+                result.emplace_back(Event::DECREASE_SPEED);
+                break;
+            case sf::Keyboard::Key::X:
+                result.emplace_back(Event::INCREASE_SPEED);
+                break;
+            case sf::Keyboard::Key::S:
+                result.emplace_back(Event::SWITCH_DRAW);
+                break;
+            default:
+                break;
             }
+            break;
+        case sf::Event::Resized:
+            view.setSize({static_cast<float>(event.size.width),
+                          static_cast<float>(event.size.height)});
+            window.setView(view);
+            break;
         default:
             break;
         }
