@@ -19,8 +19,7 @@ evolution/sources/Empty.cpp
 evolution/sources/Object.cpp 
 evolution/sources/Poison.cpp 
 evolution/sources/Wall.cpp
-evolution/sources/World.cpp 
-evolution/sources/Graphics.cpp
+evolution/sources/World.cpp
 UI/sources/loading_app_page.cpp
 UI/sources/menu_page.cpp
 UI/sources/page.cpp

@@ -393,30 +393,6 @@ evolution/sources/Empty.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Empty.cpp.s
 .PHONY : evolution/sources/Empty.cpp.s
 
-evolution/sources/Graphics.o: evolution/sources/Graphics.cpp.o
-.PHONY : evolution/sources/Graphics.o
-
-# target to build an object file
-evolution/sources/Graphics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Graphics.cpp.o
-.PHONY : evolution/sources/Graphics.cpp.o
-
-evolution/sources/Graphics.i: evolution/sources/Graphics.cpp.i
-.PHONY : evolution/sources/Graphics.i
-
-# target to preprocess a source file
-evolution/sources/Graphics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Graphics.cpp.i
-.PHONY : evolution/sources/Graphics.cpp.i
-
-evolution/sources/Graphics.s: evolution/sources/Graphics.cpp.s
-.PHONY : evolution/sources/Graphics.s
-
-# target to generate assembly for a file
-evolution/sources/Graphics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Graphics.cpp.s
-.PHONY : evolution/sources/Graphics.cpp.s
-
 evolution/sources/Object.o: evolution/sources/Object.cpp.o
 .PHONY : evolution/sources/Object.o
 
@@ -579,9 +555,6 @@ help:
 	@echo "... evolution/sources/Empty.o"
 	@echo "... evolution/sources/Empty.i"
 	@echo "... evolution/sources/Empty.s"
-	@echo "... evolution/sources/Graphics.o"
-	@echo "... evolution/sources/Graphics.i"
-	@echo "... evolution/sources/Graphics.s"
 	@echo "... evolution/sources/Object.o"
 	@echo "... evolution/sources/Object.i"
 	@echo "... evolution/sources/Object.s"
