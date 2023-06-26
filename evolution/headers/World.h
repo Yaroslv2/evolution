@@ -8,7 +8,6 @@
 #include "Empty.h"
 #include "Poison.h"
 #include "Wall.h"
-#include "Graphics.h"
 #include <set>
 #include <deque>
 
