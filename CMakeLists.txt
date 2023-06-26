@@ -11,7 +11,25 @@ project(course-paper)
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
 
 # Sources include
-add_executable(${PROJECT_NAME} main.cpp sources/Bot.cpp sources/Eat.cpp sources/Empty.cpp sources/Object.cpp sources/Poison.cpp sources/Wall.cpp sources/World.cpp sources/Graphics.cpp)
+add_executable(${PROJECT_NAME} 
+main.cpp 
+evolution/sources/Bot.cpp 
+evolution/sources/Eat.cpp 
+evolution/sources/Empty.cpp 
+evolution/sources/Object.cpp 
+evolution/sources/Poison.cpp 
+evolution/sources/Wall.cpp
+evolution/sources/World.cpp 
+evolution/sources/Graphics.cpp
+UI/sources/loading_app_page.cpp
+UI/sources/menu_page.cpp
+UI/sources/page.cpp
+UI/sources/window_state.cpp
+UI/sources/window.cpp
+UI/sources/settings_page.cpp
+UI/sources/evolution.cpp
+UI/sources/info_page.cpp
+)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE sfml-system sfml-network sfml-graphics sfml-window)
 

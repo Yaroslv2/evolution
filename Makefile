@@ -129,6 +129,390 @@ course-paper/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/build
 .PHONY : course-paper/fast
 
+UI/sources/evolution.o: UI/sources/evolution.cpp.o
+.PHONY : UI/sources/evolution.o
+
+# target to build an object file
+UI/sources/evolution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/evolution.cpp.o
+.PHONY : UI/sources/evolution.cpp.o
+
+UI/sources/evolution.i: UI/sources/evolution.cpp.i
+.PHONY : UI/sources/evolution.i
+
+# target to preprocess a source file
+UI/sources/evolution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/evolution.cpp.i
+.PHONY : UI/sources/evolution.cpp.i
+
+UI/sources/evolution.s: UI/sources/evolution.cpp.s
+.PHONY : UI/sources/evolution.s
+
+# target to generate assembly for a file
+UI/sources/evolution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/evolution.cpp.s
+.PHONY : UI/sources/evolution.cpp.s
+
+UI/sources/info_page.o: UI/sources/info_page.cpp.o
+.PHONY : UI/sources/info_page.o
+
+# target to build an object file
+UI/sources/info_page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/info_page.cpp.o
+.PHONY : UI/sources/info_page.cpp.o
+
+UI/sources/info_page.i: UI/sources/info_page.cpp.i
+.PHONY : UI/sources/info_page.i
+
+# target to preprocess a source file
+UI/sources/info_page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/info_page.cpp.i
+.PHONY : UI/sources/info_page.cpp.i
+
+UI/sources/info_page.s: UI/sources/info_page.cpp.s
+.PHONY : UI/sources/info_page.s
+
+# target to generate assembly for a file
+UI/sources/info_page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/info_page.cpp.s
+.PHONY : UI/sources/info_page.cpp.s
+
+UI/sources/loading_app_page.o: UI/sources/loading_app_page.cpp.o
+.PHONY : UI/sources/loading_app_page.o
+
+# target to build an object file
+UI/sources/loading_app_page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/loading_app_page.cpp.o
+.PHONY : UI/sources/loading_app_page.cpp.o
+
+UI/sources/loading_app_page.i: UI/sources/loading_app_page.cpp.i
+.PHONY : UI/sources/loading_app_page.i
+
+# target to preprocess a source file
+UI/sources/loading_app_page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/loading_app_page.cpp.i
+.PHONY : UI/sources/loading_app_page.cpp.i
+
+UI/sources/loading_app_page.s: UI/sources/loading_app_page.cpp.s
+.PHONY : UI/sources/loading_app_page.s
+
+# target to generate assembly for a file
+UI/sources/loading_app_page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/loading_app_page.cpp.s
+.PHONY : UI/sources/loading_app_page.cpp.s
+
+UI/sources/menu_page.o: UI/sources/menu_page.cpp.o
+.PHONY : UI/sources/menu_page.o
+
+# target to build an object file
+UI/sources/menu_page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/menu_page.cpp.o
+.PHONY : UI/sources/menu_page.cpp.o
+
+UI/sources/menu_page.i: UI/sources/menu_page.cpp.i
+.PHONY : UI/sources/menu_page.i
+
+# target to preprocess a source file
+UI/sources/menu_page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/menu_page.cpp.i
+.PHONY : UI/sources/menu_page.cpp.i
+
+UI/sources/menu_page.s: UI/sources/menu_page.cpp.s
+.PHONY : UI/sources/menu_page.s
+
+# target to generate assembly for a file
+UI/sources/menu_page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/menu_page.cpp.s
+.PHONY : UI/sources/menu_page.cpp.s
+
+UI/sources/page.o: UI/sources/page.cpp.o
+.PHONY : UI/sources/page.o
+
+# target to build an object file
+UI/sources/page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/page.cpp.o
+.PHONY : UI/sources/page.cpp.o
+
+UI/sources/page.i: UI/sources/page.cpp.i
+.PHONY : UI/sources/page.i
+
+# target to preprocess a source file
+UI/sources/page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/page.cpp.i
+.PHONY : UI/sources/page.cpp.i
+
+UI/sources/page.s: UI/sources/page.cpp.s
+.PHONY : UI/sources/page.s
+
+# target to generate assembly for a file
+UI/sources/page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/page.cpp.s
+.PHONY : UI/sources/page.cpp.s
+
+UI/sources/settings_page.o: UI/sources/settings_page.cpp.o
+.PHONY : UI/sources/settings_page.o
+
+# target to build an object file
+UI/sources/settings_page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/settings_page.cpp.o
+.PHONY : UI/sources/settings_page.cpp.o
+
+UI/sources/settings_page.i: UI/sources/settings_page.cpp.i
+.PHONY : UI/sources/settings_page.i
+
+# target to preprocess a source file
+UI/sources/settings_page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/settings_page.cpp.i
+.PHONY : UI/sources/settings_page.cpp.i
+
+UI/sources/settings_page.s: UI/sources/settings_page.cpp.s
+.PHONY : UI/sources/settings_page.s
+
+# target to generate assembly for a file
+UI/sources/settings_page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/settings_page.cpp.s
+.PHONY : UI/sources/settings_page.cpp.s
+
+UI/sources/window.o: UI/sources/window.cpp.o
+.PHONY : UI/sources/window.o
+
+# target to build an object file
+UI/sources/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/window.cpp.o
+.PHONY : UI/sources/window.cpp.o
+
+UI/sources/window.i: UI/sources/window.cpp.i
+.PHONY : UI/sources/window.i
+
+# target to preprocess a source file
+UI/sources/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/window.cpp.i
+.PHONY : UI/sources/window.cpp.i
+
+UI/sources/window.s: UI/sources/window.cpp.s
+.PHONY : UI/sources/window.s
+
+# target to generate assembly for a file
+UI/sources/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/window.cpp.s
+.PHONY : UI/sources/window.cpp.s
+
+UI/sources/window_state.o: UI/sources/window_state.cpp.o
+.PHONY : UI/sources/window_state.o
+
+# target to build an object file
+UI/sources/window_state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/window_state.cpp.o
+.PHONY : UI/sources/window_state.cpp.o
+
+UI/sources/window_state.i: UI/sources/window_state.cpp.i
+.PHONY : UI/sources/window_state.i
+
+# target to preprocess a source file
+UI/sources/window_state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/window_state.cpp.i
+.PHONY : UI/sources/window_state.cpp.i
+
+UI/sources/window_state.s: UI/sources/window_state.cpp.s
+.PHONY : UI/sources/window_state.s
+
+# target to generate assembly for a file
+UI/sources/window_state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/UI/sources/window_state.cpp.s
+.PHONY : UI/sources/window_state.cpp.s
+
+evolution/sources/Bot.o: evolution/sources/Bot.cpp.o
+.PHONY : evolution/sources/Bot.o
+
+# target to build an object file
+evolution/sources/Bot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Bot.cpp.o
+.PHONY : evolution/sources/Bot.cpp.o
+
+evolution/sources/Bot.i: evolution/sources/Bot.cpp.i
+.PHONY : evolution/sources/Bot.i
+
+# target to preprocess a source file
+evolution/sources/Bot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Bot.cpp.i
+.PHONY : evolution/sources/Bot.cpp.i
+
+evolution/sources/Bot.s: evolution/sources/Bot.cpp.s
+.PHONY : evolution/sources/Bot.s
+
+# target to generate assembly for a file
+evolution/sources/Bot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Bot.cpp.s
+.PHONY : evolution/sources/Bot.cpp.s
+
+evolution/sources/Eat.o: evolution/sources/Eat.cpp.o
+.PHONY : evolution/sources/Eat.o
+
+# target to build an object file
+evolution/sources/Eat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Eat.cpp.o
+.PHONY : evolution/sources/Eat.cpp.o
+
+evolution/sources/Eat.i: evolution/sources/Eat.cpp.i
+.PHONY : evolution/sources/Eat.i
+
+# target to preprocess a source file
+evolution/sources/Eat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Eat.cpp.i
+.PHONY : evolution/sources/Eat.cpp.i
+
+evolution/sources/Eat.s: evolution/sources/Eat.cpp.s
+.PHONY : evolution/sources/Eat.s
+
+# target to generate assembly for a file
+evolution/sources/Eat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Eat.cpp.s
+.PHONY : evolution/sources/Eat.cpp.s
+
+evolution/sources/Empty.o: evolution/sources/Empty.cpp.o
+.PHONY : evolution/sources/Empty.o
+
+# target to build an object file
+evolution/sources/Empty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Empty.cpp.o
+.PHONY : evolution/sources/Empty.cpp.o
+
+evolution/sources/Empty.i: evolution/sources/Empty.cpp.i
+.PHONY : evolution/sources/Empty.i
+
+# target to preprocess a source file
+evolution/sources/Empty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Empty.cpp.i
+.PHONY : evolution/sources/Empty.cpp.i
+
+evolution/sources/Empty.s: evolution/sources/Empty.cpp.s
+.PHONY : evolution/sources/Empty.s
+
+# target to generate assembly for a file
+evolution/sources/Empty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Empty.cpp.s
+.PHONY : evolution/sources/Empty.cpp.s
+
+evolution/sources/Graphics.o: evolution/sources/Graphics.cpp.o
+.PHONY : evolution/sources/Graphics.o
+
+# target to build an object file
+evolution/sources/Graphics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Graphics.cpp.o
+.PHONY : evolution/sources/Graphics.cpp.o
+
+evolution/sources/Graphics.i: evolution/sources/Graphics.cpp.i
+.PHONY : evolution/sources/Graphics.i
+
+# target to preprocess a source file
+evolution/sources/Graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Graphics.cpp.i
+.PHONY : evolution/sources/Graphics.cpp.i
+
+evolution/sources/Graphics.s: evolution/sources/Graphics.cpp.s
+.PHONY : evolution/sources/Graphics.s
+
+# target to generate assembly for a file
+evolution/sources/Graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Graphics.cpp.s
+.PHONY : evolution/sources/Graphics.cpp.s
+
+evolution/sources/Object.o: evolution/sources/Object.cpp.o
+.PHONY : evolution/sources/Object.o
+
+# target to build an object file
+evolution/sources/Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Object.cpp.o
+.PHONY : evolution/sources/Object.cpp.o
+
+evolution/sources/Object.i: evolution/sources/Object.cpp.i
+.PHONY : evolution/sources/Object.i
+
+# target to preprocess a source file
+evolution/sources/Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Object.cpp.i
+.PHONY : evolution/sources/Object.cpp.i
+
+evolution/sources/Object.s: evolution/sources/Object.cpp.s
+.PHONY : evolution/sources/Object.s
+
+# target to generate assembly for a file
+evolution/sources/Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Object.cpp.s
+.PHONY : evolution/sources/Object.cpp.s
+
+evolution/sources/Poison.o: evolution/sources/Poison.cpp.o
+.PHONY : evolution/sources/Poison.o
+
+# target to build an object file
+evolution/sources/Poison.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Poison.cpp.o
+.PHONY : evolution/sources/Poison.cpp.o
+
+evolution/sources/Poison.i: evolution/sources/Poison.cpp.i
+.PHONY : evolution/sources/Poison.i
+
+# target to preprocess a source file
+evolution/sources/Poison.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Poison.cpp.i
+.PHONY : evolution/sources/Poison.cpp.i
+
+evolution/sources/Poison.s: evolution/sources/Poison.cpp.s
+.PHONY : evolution/sources/Poison.s
+
+# target to generate assembly for a file
+evolution/sources/Poison.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Poison.cpp.s
+.PHONY : evolution/sources/Poison.cpp.s
+
+evolution/sources/Wall.o: evolution/sources/Wall.cpp.o
+.PHONY : evolution/sources/Wall.o
+
+# target to build an object file
+evolution/sources/Wall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Wall.cpp.o
+.PHONY : evolution/sources/Wall.cpp.o
+
+evolution/sources/Wall.i: evolution/sources/Wall.cpp.i
+.PHONY : evolution/sources/Wall.i
+
+# target to preprocess a source file
+evolution/sources/Wall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Wall.cpp.i
+.PHONY : evolution/sources/Wall.cpp.i
+
+evolution/sources/Wall.s: evolution/sources/Wall.cpp.s
+.PHONY : evolution/sources/Wall.s
+
+# target to generate assembly for a file
+evolution/sources/Wall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/Wall.cpp.s
+.PHONY : evolution/sources/Wall.cpp.s
+
+evolution/sources/World.o: evolution/sources/World.cpp.o
+.PHONY : evolution/sources/World.o
+
+# target to build an object file
+evolution/sources/World.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/World.cpp.o
+.PHONY : evolution/sources/World.cpp.o
+
+evolution/sources/World.i: evolution/sources/World.cpp.i
+.PHONY : evolution/sources/World.i
+
+# target to preprocess a source file
+evolution/sources/World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/World.cpp.i
+.PHONY : evolution/sources/World.cpp.i
+
+evolution/sources/World.s: evolution/sources/World.cpp.s
+.PHONY : evolution/sources/World.s
+
+# target to generate assembly for a file
+evolution/sources/World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/evolution/sources/World.cpp.s
+.PHONY : evolution/sources/World.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,198 +537,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sources/Bot.o: sources/Bot.cpp.o
-.PHONY : sources/Bot.o
-
-# target to build an object file
-sources/Bot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Bot.cpp.o
-.PHONY : sources/Bot.cpp.o
-
-sources/Bot.i: sources/Bot.cpp.i
-.PHONY : sources/Bot.i
-
-# target to preprocess a source file
-sources/Bot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Bot.cpp.i
-.PHONY : sources/Bot.cpp.i
-
-sources/Bot.s: sources/Bot.cpp.s
-.PHONY : sources/Bot.s
-
-# target to generate assembly for a file
-sources/Bot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Bot.cpp.s
-.PHONY : sources/Bot.cpp.s
-
-sources/Eat.o: sources/Eat.cpp.o
-.PHONY : sources/Eat.o
-
-# target to build an object file
-sources/Eat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Eat.cpp.o
-.PHONY : sources/Eat.cpp.o
-
-sources/Eat.i: sources/Eat.cpp.i
-.PHONY : sources/Eat.i
-
-# target to preprocess a source file
-sources/Eat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Eat.cpp.i
-.PHONY : sources/Eat.cpp.i
-
-sources/Eat.s: sources/Eat.cpp.s
-.PHONY : sources/Eat.s
-
-# target to generate assembly for a file
-sources/Eat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Eat.cpp.s
-.PHONY : sources/Eat.cpp.s
-
-sources/Empty.o: sources/Empty.cpp.o
-.PHONY : sources/Empty.o
-
-# target to build an object file
-sources/Empty.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Empty.cpp.o
-.PHONY : sources/Empty.cpp.o
-
-sources/Empty.i: sources/Empty.cpp.i
-.PHONY : sources/Empty.i
-
-# target to preprocess a source file
-sources/Empty.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Empty.cpp.i
-.PHONY : sources/Empty.cpp.i
-
-sources/Empty.s: sources/Empty.cpp.s
-.PHONY : sources/Empty.s
-
-# target to generate assembly for a file
-sources/Empty.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Empty.cpp.s
-.PHONY : sources/Empty.cpp.s
-
-sources/Graphics.o: sources/Graphics.cpp.o
-.PHONY : sources/Graphics.o
-
-# target to build an object file
-sources/Graphics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Graphics.cpp.o
-.PHONY : sources/Graphics.cpp.o
-
-sources/Graphics.i: sources/Graphics.cpp.i
-.PHONY : sources/Graphics.i
-
-# target to preprocess a source file
-sources/Graphics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Graphics.cpp.i
-.PHONY : sources/Graphics.cpp.i
-
-sources/Graphics.s: sources/Graphics.cpp.s
-.PHONY : sources/Graphics.s
-
-# target to generate assembly for a file
-sources/Graphics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Graphics.cpp.s
-.PHONY : sources/Graphics.cpp.s
-
-sources/Object.o: sources/Object.cpp.o
-.PHONY : sources/Object.o
-
-# target to build an object file
-sources/Object.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Object.cpp.o
-.PHONY : sources/Object.cpp.o
-
-sources/Object.i: sources/Object.cpp.i
-.PHONY : sources/Object.i
-
-# target to preprocess a source file
-sources/Object.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Object.cpp.i
-.PHONY : sources/Object.cpp.i
-
-sources/Object.s: sources/Object.cpp.s
-.PHONY : sources/Object.s
-
-# target to generate assembly for a file
-sources/Object.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Object.cpp.s
-.PHONY : sources/Object.cpp.s
-
-sources/Poison.o: sources/Poison.cpp.o
-.PHONY : sources/Poison.o
-
-# target to build an object file
-sources/Poison.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Poison.cpp.o
-.PHONY : sources/Poison.cpp.o
-
-sources/Poison.i: sources/Poison.cpp.i
-.PHONY : sources/Poison.i
-
-# target to preprocess a source file
-sources/Poison.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Poison.cpp.i
-.PHONY : sources/Poison.cpp.i
-
-sources/Poison.s: sources/Poison.cpp.s
-.PHONY : sources/Poison.s
-
-# target to generate assembly for a file
-sources/Poison.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Poison.cpp.s
-.PHONY : sources/Poison.cpp.s
-
-sources/Wall.o: sources/Wall.cpp.o
-.PHONY : sources/Wall.o
-
-# target to build an object file
-sources/Wall.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Wall.cpp.o
-.PHONY : sources/Wall.cpp.o
-
-sources/Wall.i: sources/Wall.cpp.i
-.PHONY : sources/Wall.i
-
-# target to preprocess a source file
-sources/Wall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Wall.cpp.i
-.PHONY : sources/Wall.cpp.i
-
-sources/Wall.s: sources/Wall.cpp.s
-.PHONY : sources/Wall.s
-
-# target to generate assembly for a file
-sources/Wall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/Wall.cpp.s
-.PHONY : sources/Wall.cpp.s
-
-sources/World.o: sources/World.cpp.o
-.PHONY : sources/World.o
-
-# target to build an object file
-sources/World.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/World.cpp.o
-.PHONY : sources/World.cpp.o
-
-sources/World.i: sources/World.cpp.i
-.PHONY : sources/World.i
-
-# target to preprocess a source file
-sources/World.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/World.cpp.i
-.PHONY : sources/World.cpp.i
-
-sources/World.s: sources/World.cpp.s
-.PHONY : sources/World.s
-
-# target to generate assembly for a file
-sources/World.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/course-paper.dir/build.make CMakeFiles/course-paper.dir/sources/World.cpp.s
-.PHONY : sources/World.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,33 +546,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... course-paper"
+	@echo "... UI/sources/evolution.o"
+	@echo "... UI/sources/evolution.i"
+	@echo "... UI/sources/evolution.s"
+	@echo "... UI/sources/info_page.o"
+	@echo "... UI/sources/info_page.i"
+	@echo "... UI/sources/info_page.s"
+	@echo "... UI/sources/loading_app_page.o"
+	@echo "... UI/sources/loading_app_page.i"
+	@echo "... UI/sources/loading_app_page.s"
+	@echo "... UI/sources/menu_page.o"
+	@echo "... UI/sources/menu_page.i"
+	@echo "... UI/sources/menu_page.s"
+	@echo "... UI/sources/page.o"
+	@echo "... UI/sources/page.i"
+	@echo "... UI/sources/page.s"
+	@echo "... UI/sources/settings_page.o"
+	@echo "... UI/sources/settings_page.i"
+	@echo "... UI/sources/settings_page.s"
+	@echo "... UI/sources/window.o"
+	@echo "... UI/sources/window.i"
+	@echo "... UI/sources/window.s"
+	@echo "... UI/sources/window_state.o"
+	@echo "... UI/sources/window_state.i"
+	@echo "... UI/sources/window_state.s"
+	@echo "... evolution/sources/Bot.o"
+	@echo "... evolution/sources/Bot.i"
+	@echo "... evolution/sources/Bot.s"
+	@echo "... evolution/sources/Eat.o"
+	@echo "... evolution/sources/Eat.i"
+	@echo "... evolution/sources/Eat.s"
+	@echo "... evolution/sources/Empty.o"
+	@echo "... evolution/sources/Empty.i"
+	@echo "... evolution/sources/Empty.s"
+	@echo "... evolution/sources/Graphics.o"
+	@echo "... evolution/sources/Graphics.i"
+	@echo "... evolution/sources/Graphics.s"
+	@echo "... evolution/sources/Object.o"
+	@echo "... evolution/sources/Object.i"
+	@echo "... evolution/sources/Object.s"
+	@echo "... evolution/sources/Poison.o"
+	@echo "... evolution/sources/Poison.i"
+	@echo "... evolution/sources/Poison.s"
+	@echo "... evolution/sources/Wall.o"
+	@echo "... evolution/sources/Wall.i"
+	@echo "... evolution/sources/Wall.s"
+	@echo "... evolution/sources/World.o"
+	@echo "... evolution/sources/World.i"
+	@echo "... evolution/sources/World.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sources/Bot.o"
-	@echo "... sources/Bot.i"
-	@echo "... sources/Bot.s"
-	@echo "... sources/Eat.o"
-	@echo "... sources/Eat.i"
-	@echo "... sources/Eat.s"
-	@echo "... sources/Empty.o"
-	@echo "... sources/Empty.i"
-	@echo "... sources/Empty.s"
-	@echo "... sources/Graphics.o"
-	@echo "... sources/Graphics.i"
-	@echo "... sources/Graphics.s"
-	@echo "... sources/Object.o"
-	@echo "... sources/Object.i"
-	@echo "... sources/Object.s"
-	@echo "... sources/Poison.o"
-	@echo "... sources/Poison.i"
-	@echo "... sources/Poison.s"
-	@echo "... sources/Wall.o"
-	@echo "... sources/Wall.i"
-	@echo "... sources/Wall.s"
-	@echo "... sources/World.o"
-	@echo "... sources/World.i"
-	@echo "... sources/World.s"
 .PHONY : help
 
 
